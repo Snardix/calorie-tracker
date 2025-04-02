@@ -50,14 +50,14 @@ CREATE TABLE meals (
     list_dishes JSONB NOT NULL,  -- Храним список блюд в JSONB
     meal_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+### Настройка IDE
 application.properties: 
 spring.datasource.url=jdbc:postgresql://localhost:5432/calorie_tracker
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 
-API эндпоинты
+### API эндпоинты
 Пользователи
 Метод	URL	Описание
 POST	/users	Создать пользователя
