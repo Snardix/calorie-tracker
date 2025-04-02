@@ -50,6 +50,7 @@ CREATE TABLE meals (
     list_dishes JSONB NOT NULL,  -- Храним список блюд в JSONB
     meal_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+**```
 ### Настройка IDE
 application.properties: 
 spring.datasource.url=jdbc:postgresql://localhost:5432/calorie_tracker
